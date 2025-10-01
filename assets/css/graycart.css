@@ -1,0 +1,26 @@
+/* assets/css/graycart.css */
+.graycart-cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.graycart-cart th, .graycart-cart td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.graycart-recently-viewed .carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.graycart-recently-viewed .item {
+    margin: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .graycart-recently-viewed .carousel {
+        flex-direction: column;
+    }
+}
